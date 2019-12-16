@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ThreadPost < ApplicationRecord
   belongs_to :user
   belongs_to :post
