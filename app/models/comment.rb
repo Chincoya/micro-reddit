@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ThreadPost < ApplicationRecord
+class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :post
 

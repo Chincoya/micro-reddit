@@ -9,5 +9,5 @@ class User < ApplicationRecord
                     uniqueness: { case_sensitive: false }
 
   has_many :posts
-  has_many :thread_posts
+  has_many :comments
 end
